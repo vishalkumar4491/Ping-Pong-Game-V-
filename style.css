@@ -1,0 +1,64 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: black;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  text-align: center;
+  background-color: beige;
+  width: 95%;
+  height: 95%;
+  /* text-align: center; */
+  position: relative;
+  margin: 0;
+}
+
+#rod1 {
+  position: absolute;
+  bottom: 2px;
+  left: 45%;
+  width: 150px;
+  height: 20px;
+  background-color: red;
+  border-radius: 10px;
+  color: white;
+}
+#rod2 {
+  position: absolute;
+  top: 2px;
+  left: 45%;
+  width: 150px;
+  height: 20px;
+  background-color: red;
+  border-radius: 10px;
+  color: white;
+}
+
+#ball {
+  position: absolute;
+  left: 50%;
+  background-color: black;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  top: 50%;
+}
+h3 {
+  display: flex;
+  margin-left: 30px;
+  color: blue;
+  font-size: 50px;
+}
+
+#score1 {
+  margin-bottom: 200px;
+  margin-top: 200px;
+  
+  mar
+}
